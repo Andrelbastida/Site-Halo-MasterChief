@@ -32,7 +32,7 @@ main {
     margin: auto;
     grid-gap: 3rem;
     display: grid;
-    gap: 3rem;
+    gap: 2rem;
     grid-template-areas: "sidebar main anchors";
     grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
     padding-left: 1rem;
@@ -54,4 +54,15 @@ figure {
 }
 li img{
     height: 330px;
+}
+fieldset{
+    border-color: #3e694f;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+legend{
+
+color: #3e694f;
+border-color: #3e694f;
 }
