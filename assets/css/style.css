@@ -16,8 +16,11 @@ header{
 }
 .logo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
     padding-left: 80px;
+    padding-right: 80px;
     
 }
 #masterChiefLogo{
