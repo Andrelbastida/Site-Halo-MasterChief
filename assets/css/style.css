@@ -27,6 +27,53 @@ header{
     border-radius: 100%;
     box-shadow: 10px -2px 5px #3e694f;
 }
+nav{
+  //  height: 850px;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+}
+nav ul{
+    height: 30px;
+    cursor: pointer;
+    
+}
+nav ul :hover{
+    margin: 0px;
+    padding: 0px;
+    height: 120px;
+    transition: 3s;
+    translate: 28px 0px 0px;
+    
+}
+
+nav ul ul li{
+    display: none;
+    opacity: 00%;
+    
+}
+
+nav ul li :hover>li{
+    margin-left: 20px;
+    height: 30px;
+    transition: 2s;
+    display: block;
+    opacity: 100%;
+}
+nav ul ul li{
+    width: 150px;
+    padding-top: 4px;
+    font: bold;
+    font-style: oblique;
+    color: rgba(86, 122, 76, 0.671);
+
+    
+}
+nav ul ul li:hover{
+    color: #7ec098;
+    translate: 18px 0px 50px;
+}
+
 main {
     max-width: 1440px;
     margin: auto;
@@ -44,7 +91,7 @@ footer {
 }
 aside {
     border-left: solid 1px #cdcdcd;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 nav{
     border-right: solid 1px #cdcdcd;
@@ -65,4 +112,54 @@ legend{
 
 color: #3e694f;
 border-color: #3e694f;
+}
+aside img{
+    border-radius: 5px;
+}
+
+.imgHalo0:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+}
+
+.imgHalo1:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+    
+    
+}
+
+.imgHalo2:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+    
+
+}
+
+.imgHalo3:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+
+}
+.imgHalo4:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+
+}
+.imgHalo5:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+
+}
+.imgHalo6:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+
 }
